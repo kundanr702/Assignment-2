@@ -1,0 +1,337 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "id": "03f37df9-068e-4619-a7eb-2a54de96467e",
+   "metadata": {},
+   "source": [
+    "Q1. How do you comment code in Python? What are the different types of comments?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "42e0e7e9-53fb-47ba-a2a8-120081298b18",
+   "metadata": {},
+   "source": [
+    "Ans\n",
+    "We can comment code in python by hash symbol(#) for single line and also use single coat(''') and double coat (\"\"\") for multiple lines. Basically there are three type of comments in python.\n",
+    "i> Single line "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "efe727b0-5400-4fc2-8ffc-5fb50d1b0ce9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#this is a comment"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "aef28d80-1f60-44ca-9b0e-b5589047c62b",
+   "metadata": {},
+   "source": [
+    "ii> Multiple lines "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "32b4cff1-6aab-49a3-9a8a-8d29e16e742b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "'''This is a multiple line comment \n",
+    "   example''' \n",
+    "\"\"\"This is also a multiple line comment \n",
+    "   example\"\"\""
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "01f96493-4ccc-4168-a106-510f241d9c1b",
+   "metadata": {},
+   "source": [
+    "iii> Docstring (strings used right after the definition of a function, method, class, or module)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "808001dc-d032-4186-9413-ee8cdd27be4c",
+   "metadata": {},
+   "source": [
+    "Q2. What are variables in Python? How do you declare and assign values to variables?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "cf845404-b6bd-493b-aaa9-4ebe8156b543",
+   "metadata": {},
+   "source": [
+    "Ans.\n",
+    "A variable is a container which is used to contain any data in python. We can only assign variable to a value in python there is no any command avilable in python which is used to declare variable.\n",
+    "For Example..."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "75454710-8cea-44ea-8637-6e93c3589bb1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "num1=6\n",
+    "num2=5\n",
+    "print(num1+num2)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "70e0a05f-4b1a-4146-9ba2-2e932c5a9c4c",
+   "metadata": {},
+   "source": [
+    "Here we assign num1 to 6 and num2 to 5 and pass there variable name to print function with an arithmetic operation. "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "a37d5bea-370e-4e5d-b9bd-71a0a7ecba0b",
+   "metadata": {},
+   "source": [
+    "Q3. How do you convert one data type to another in Python?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7861ff07-b1a5-496b-a012-bafa19cf9996",
+   "metadata": {},
+   "source": [
+    "Ans.\n",
+    "Python have per define function which is used to convert the data type { int(), float(), str() } they are also called typecasting because we as user change the data type by help of these typecasting function."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "e2d56381-3524-4f92-be92-d3ba1e671fba",
+   "metadata": {},
+   "source": [
+    "Q4. How do you write and execute a Python script from the command line?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "6e9fc636-6f25-4c09-af55-cfe5c5aebb41",
+   "metadata": {},
+   "source": [
+    "Ans.\n",
+    "The easiest way to run a Python script is by using the command line.\n",
+    "i> Open a command line or terminal window.\n",
+    "ii> Type the word \"python\" followed by a space.\n",
+    "iii> Enter the path to your script file. For example, if your script is named \"first_script.py\" and it's located in the current directory, you can simply type \"first_script.py\".\n",
+    "iv> If your script requires any input or arguments, you can add them after the script's name, separated by spaces. For instance, if your script expects the input \"Hello World!\", you can type it after the script name like this: \"first_script.py Hello World!\".\n",
+    "vi> Press the ENTER or RETURN key on your keyboard.\n",
+    "The Python interpreter will execute your script, and any output or results will be displayed in the command line."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "6ae433b3-b8f6-4ed9-97e8-d74fb00239f7",
+   "metadata": {},
+   "source": [
+    "Q5. Given a list my_list = [1, 2, 3, 4, 5], write the code to slice the list and obtain the sub-list [2, 3]."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "bf62a81b-eac9-4595-b326-6f7ada222108",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[2, 3]\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_list=[1,2,3,4,5]\n",
+    "sub_list=my_list[1:3]\n",
+    "print(sub_list)\n"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "e7a1424e-24fb-4595-a0be-160a89f9cdd6",
+   "metadata": {},
+   "source": [
+    "Q6. What is a complex number in mathematics, and how is it represented in Python?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "18092a35-013a-4b40-8151-eb819861f547",
+   "metadata": {},
+   "source": [
+    "A complex number is a number that consists of both a real part and an imaginary part. It is represented in the form \"a + bi\", where \"a\" represents the real part, \"b\" represents the imaginary part, and \"i\" is the imaginary unit.\n",
+    "We can represent complex number in python as [ A+5j ] here A is real part and 5j is imaginary part."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "444f98ae-4ce4-423d-8b38-f73490903f42",
+   "metadata": {},
+   "source": [
+    "Q7. What is the correct way to declare a variable named age and assign the value 25 to it?"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "a5d9ca41-6fbd-441d-a863-bc16744cd485",
+   "metadata": {},
+   "source": [
+    "Ans.\n",
+    "There is no way to declare variable in python we can only create variable in python and assign the value as per our requirement.\n",
+    "For Example:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c0b832a-515c-4b00-a9b3-5e97891eac29",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age=25"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "1e82b659-0e8f-49fc-a454-3ca269749a59",
+   "metadata": {},
+   "source": [
+    "Q8. Declare a variable named price and assign the value 9.99 to it. What data type does this variable\n",
+    "belong to?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "14eec868-3918-415d-a8f5-98b8be261288",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Ans.\n",
+    "price = 9.99"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "31cdf096-8bb1-42e4-a696-0e16b6c75bfa",
+   "metadata": {},
+   "source": [
+    "The data type of price is float."
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "7137021e-c636-4858-abbb-be60e18dd9f9",
+   "metadata": {},
+   "source": [
+    "Q9. Create a variable named name and assign your full name to it as a string. How would you print the\n",
+    "value of this variable?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42d13d7a-aea6-4880-802f-a11dc1d1b74f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Ans.\n",
+    "name = 'Kundan Kumar Rai'\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "3b39c7c4-2f78-431b-b5e0-100ce68a792e",
+   "metadata": {},
+   "source": [
+    "We can print the value in name by the help of print function in python. \n",
+    "print(name) "
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "2f207735-60f1-46eb-8cad-cd96c9377a0a",
+   "metadata": {},
+   "source": [
+    "Q10. Given the string \"Hello, World!\", extract the substring \"World\"."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "af25f36c-26f4-4418-a83c-a55b66ad6c18",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "World\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = \"Hello, World!\"\n",
+    "print(a[7:12])"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "c680345a-a1af-42aa-a94c-3e7151b42a4b",
+   "metadata": {},
+   "source": [
+    "Q11. Create a variable named \"is_student\" and assign it a boolean value indicating whether you are\n",
+    "currently a student or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e10f7a4-f90e-492a-b45b-73759e7b9f2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "is_student= True"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
